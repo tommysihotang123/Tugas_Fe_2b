@@ -1,0 +1,10 @@
+.home-container {
+  max-width: 1440px;
+  min-height: 2890px;
+  transform: rotate(0deg);
+  opacity: 1;
+  margin: 0 auto;
+  background-color: #181818;
+  position: relative;
+  overflow: hidden;
+}

@@ -1,0 +1,60 @@
+const topRating = [
+  {
+    id: 1,
+    src: "./images/new-release/film-1.png",
+    alt: "",
+    isNewEpisode: false,
+    isTopTen: true,
+    isPremium: false,
+  },
+  {
+    id: 2,
+    src: "./images/new-release/film-2.png",
+    alt: "",
+    isNewEpisode: true,
+    isTopTen: false,
+    isPremium: false,
+  },
+  {
+    id: 3,
+    src: "./images/new-release/film-3.png",
+    alt: "",
+    isNewEpisode: true,
+    isTopTen: true,
+    isPremium: false,
+  },
+  {
+    id: 4,
+    src: "./images/new-release/film-4.png",
+    alt: "",
+    isNewEpisode: false,
+    isTopTen: true,
+    isPremium: false,
+  },
+  {
+    id: 5,
+    src: "./images/new-release/film-5.png",
+    alt: "",
+    isNewEpisode: false,
+    isTopTen: false,
+    isPremium: false,
+  },
+  {
+    id: 6,
+    src: "./images/new-release/film-6.png",
+    alt: "",
+    isNewEpisode: false,
+    isTopTen: false,
+    isPremium: false,
+  },
+  {
+    id: 7,
+    src: "./images/new-release/film-7.png",
+    alt: "",
+    isNewEpisode: false,
+    isTopTen: false,
+    isPremium: false,
+  },
+];
+
+export default topRating;

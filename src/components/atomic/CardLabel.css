@@ -1,0 +1,35 @@
+.new--episode {
+  background-color: #0f1e93;
+  font-size: 8px;
+  padding: 2px 8px;
+  border-radius: 1.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 5px 0 0 5px;
+}
+.top-ten {
+  display: flex;
+  flex-direction: column;
+  background-color: #b71f1d;
+  font-size: 8px;
+  padding: 2px;
+  border-radius: 0 4px 0 4px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 0px;
+}
+
+@media (min-width: 768px) {
+  .new--episode {
+    font-size: 14px;
+    padding: 4px 10px;
+    border-radius: 1.5rem;
+    margin: 16px 0 0 16px;
+  }
+  .top-ten {
+    font-size: 14px;
+    padding: 4px;
+  }
+}

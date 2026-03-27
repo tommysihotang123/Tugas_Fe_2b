@@ -1,0 +1,120 @@
+.nav {
+  background-color: #212121;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  position: relative;
+}
+.nav__logo {
+  width: 40px;
+  height: auto;
+}
+.logo-small {
+  width: 100%;
+  height: auto;
+}
+.logo-medium {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+.nav__list {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.8rem;
+  list-style: none;
+}
+.nav__link {
+  text-decoration: none;
+  color: #fff;
+}
+.profile-img {
+  width: 30px;
+  height: auto;
+}
+.dropdown-icon {
+  width: 12px;
+  height: auto;
+  transition: transform 0.2s ease;
+}
+.nav__profile {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+.nav__profile:hover .dropdown-icon {
+  transform: rotate(180deg);
+}
+
+.dropdown-menu {
+  position: absolute;
+  font-size: 0.8rem;
+  right: 5%;
+  top: 70%;
+  background-color: #212121;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  visibility: hidden;
+}
+.dropdown-menu__item {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 0.5rem;
+}
+.dropdown-menu__item:hover {
+  color: #3254ff;
+}
+.nav__profile:hover .dropdown-menu {
+  visibility: visible;
+}
+.dropdown-menu__item:hover .dropdown-icons {
+  filter: brightness(0) saturate(100%) invert(34%) sepia(100%) saturate(1000%)
+    hue-rotate(208deg) brightness(101%) contrast(101%);
+}
+
+@media (min-width: 768px) {
+  .nav__logo {
+    width: 100px;
+    height: auto;
+  }
+  .logo-small {
+    display: none;
+  }
+  .logo-medium {
+    display: block;
+  }
+  .nav__list {
+    font-size: 1rem;
+    gap: 2rem;
+  }
+  .profile-img {
+    width: 40px;
+    height: auto;
+  }
+  .dropdown-menu {
+    font-size: 1rem;
+  }
+  .dropdown-icons {
+    width: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .nav {
+    padding: 1.5rem 5rem;
+  }
+  .nav__logo {
+    width: 120px;
+    height: auto;
+  }
+
+  .nav__list {
+    font-size: 1.125rem;
+    gap: 2rem;
+  }
+}

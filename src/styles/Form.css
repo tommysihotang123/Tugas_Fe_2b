@@ -1,0 +1,142 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background: linear-gradient(
+      to top,
+      rgba(2, 77, 183, 0.5) 5%,
+      rgba(2, 77, 183, 0)
+    ),
+    /* url("/background-2.jpg"); */
+}
+.container-hero {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("/background-login.jpg");
+}
+.container-daftar {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("/daftar.jpg");
+}
+
+.wrapper-form {
+  flex: 0 1 529px;
+  height: fit-content;
+  background-color: rgba(24, 26, 28, 0.8);
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 37px;
+}
+.logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 20px;
+}
+.title {
+  font-size: 1.8rem;
+  line-height: 110%;
+  color: #fff;
+}
+.paragraph {
+  font-size: 1rem;
+  color: #fff;
+  line-height: 140%;
+}
+
+.form__label {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-size: 1rem;
+  gap: 4px;
+}
+.username {
+  margin-bottom: 1.25rem;
+}
+.password {
+  margin-bottom: 0.4rem;
+  position: relative;
+}
+.password-confirm {
+  margin-top: 1.25rem;
+  margin-bottom: 0.4rem;
+  position: relative;
+}
+.password--register {
+  margin-bottom: 1.25rem;
+  position: relative;
+}
+
+.call-to-action {
+  color: #fff;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+.call-to-action span {
+  color: #c1c2c4;
+  display: flex;
+  gap: 5px;
+}
+.call-to-action a {
+  color: #fff;
+  text-decoration: none;
+}
+.or {
+  color: #9d9ea1;
+  font-size: 0.8rem;
+  text-align: center;
+  margin: 4px 0;
+}
+.google-icon {
+  width: 15px;
+}
+.hide-icon {
+  width: 15px;
+  position: absolute;
+  right: 5%;
+  bottom: 20%;
+  cursor: pointer;
+}
+.call-to-action .register {
+  cursor: pointer;
+  color: #fff;
+}
+
+.call-to-action .forget-password {
+  color: #fff;
+}
+
+@media (min-width: 1440px) {
+  .logo {
+    width: 150px;
+    margin-bottom: 30px;
+  }
+  .call-to-action {
+    font-size: 1rem;
+  }
+}

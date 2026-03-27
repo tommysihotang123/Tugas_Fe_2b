@@ -1,0 +1,18 @@
+.embla {
+  width: 100%;
+  position: relative;
+  /* Pull the logical bounding box of the carousel up to ignore the physical padding height */
+  margin-bottom: -8rem;
+}
+
+.embla__viewport {
+  overflow: hidden;
+}
+
+.embla-container {
+  display: flex;
+  gap: 1rem;
+  /* Add padding bottom to give room for the dropping panel (approx 125px needed) */
+  padding-bottom: 8rem;
+  padding-top: 1rem;
+}

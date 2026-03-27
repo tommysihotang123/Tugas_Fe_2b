@@ -1,0 +1,73 @@
+const filmList = [
+  {
+    id: 1,
+    title: "My Hero Academia",
+    rating: 4.5,
+    src: "./images/continues/film-1.jpg",
+    alt: "My Hero Academia image",
+  },
+  {
+    id: 2,
+    title: "The Batman",
+    rating: 4.2,
+    src: "./images/continues/film-2.jpg",
+    alt: "The Batman image",
+  },
+  {
+    id: 3,
+    title: "Spiderman: Miles Morales",
+    rating: 4.8,
+    src: "./images/continues/film-3.jpg",
+    alt: "Spiderman: Miles Morales image",
+  },
+  {
+    id: 4,
+    title: "Don't Look Up",
+    rating: 4.6,
+    src: "./images/continues/film-4.jpg",
+    alt: "A Man Called Otto image",
+  },
+  {
+    id: 5,
+    title: "Suzume",
+    rating: 4.1,
+    src: "./images/continues/film-5.jpg",
+    alt: "Suzume image",
+  },
+  {
+    id: 6,
+    title: "Stuart Little",
+    rating: 4.3,
+    src: "./images/continues/film-6.jpg",
+    alt: "Stuart Little image",
+  },
+  {
+    id: 7,
+    title: "The Devil All The Time",
+    rating: 4.0,
+    src: "./images/continues/film-7.jpg",
+    alt: "Spiderman: Miles Morales image",
+  },
+  {
+    id: 8,
+    title: "Big Hero 6",
+    rating: 4.1,
+    src: "./images/continues/film-8.jpg",
+    alt: "Big Hero 6 image",
+  },
+  {
+    id: 9,
+    title: "A Man Called Otto",
+    rating: 4.4,
+    src: "./images/continues/film-9.jpg",
+    alt: "A Man Called Otto image",
+  },
+  {
+    id: 10,
+    title: "The Tomorrow War",
+    rating: 4.2,
+    src: "./images/continues/film-10.jpg",
+    alt: "The Tomorrow War image",
+  },
+];
+export default filmList;

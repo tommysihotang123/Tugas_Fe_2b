@@ -1,0 +1,85 @@
+.btn--primary {
+  background-color: #0586ff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.btn--primary--dark {
+  background-color: #0f1e93;
+  color: #fff;
+  border: none;
+  padding: 4px 12px;
+  border-radius: 48px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.btn--primary:hover {
+  background-color: #0367db;
+}
+.btn--primary:active {
+  background-color: #024db7;
+}
+
+.btn--secondary {
+  width: 100%;
+  background-color: #3d4142;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 14px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.btn--secondary--small {
+  background-color: #3d4142;
+  color: #fff;
+  border: none;
+  padding: 4px 12px;
+  border-radius: 14px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.btn--secondary--outline {
+  width: 100%;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #e7e3fc99;
+  padding: 0.5rem 1rem;
+  border-radius: 14px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+@media (min-width: 768px) {
+  .btn--primary--dark {
+    font-size: 1rem;
+  }
+  .btn--secondary--small {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .btn--secondary--outline {
+    padding: 0.7rem;
+    border-radius: 24px;
+  }
+  .btn--secondary {
+    padding: 0.7rem;
+    border-radius: 24px;
+  }
+  .btn--primary--dark {
+    padding: 10px 26px;
+  }
+  .btn--secondary--small {
+    padding: 10px 26px;
+  }
+}
